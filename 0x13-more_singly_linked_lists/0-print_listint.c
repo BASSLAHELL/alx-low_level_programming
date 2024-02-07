@@ -1,12 +1,13 @@
 #include "lists.h"
 
 /**
- * print_listint - a function that prints all elements of a list
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
  *
- * @h: pointer to first node
- *
- * Return: the number of nodes
-*/
+ * Description: singly linked list node structure
+ * 
+ */
 size_t print_listint(const listint_t *h)
 {
 	size_t node_count = 1;
